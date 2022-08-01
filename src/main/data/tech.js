@@ -192,6 +192,13 @@ export default {
                     color: badgeColor,
                     logo: "woocommerce"
                 },
+                {
+                    link: "https://www.jetbrains.com/opensource/kotlin/",
+                    alt: "Kotlin",
+                    name: "Kotlin",
+                    color: badgeColor,
+                    logo: "kotlin"
+                },
             ],
         },
     ],
