@@ -1,36 +1,13 @@
 import { colors } from "../tokens.js";
+import { _badge } from "../utils/factory.js";
 const badgeColor = colors.decisions.badge.normal;
 
 export default {
     name: "Socials",
     items: [
-        {
-            link: "https://twitter.com/luisfloat",
-            name: "Twitter",
-            color: badgeColor,
-            logo: "twitter",
-            alt: "Twitter",
-        },
-        {
-            link: "https://github.com/luisfloat",
-            name: "Github",
-            color: badgeColor,
-            logo: "github",
-            alt: "Github",
-        },
-        {
-            link: "https://instagram.com/luisfloat",
-            name: "Instagram",
-            color: badgeColor,
-            logo: "instagram",
-            alt: "Instagram",
-        },
-        {
-            link: "mailto:contact@luisfloat.com",
-            name: "Gmail",
-            color: badgeColor,
-            logo: "gmail",
-            alt: "Gmail",
-        }
-    ]
+        _badge("Twitter", "https://twitter.com/luisfloat", "Twitter", badgeColor, "twitter"),
+        _badge("Github", "https://github.com/luisfloat", "Github", badgeColor, "github"),
+        _badge("Instagram", "https://instagram.com/luisfloat", "Instagram", badgeColor, "instagram"),
+        _badge("Gmail", "mailto:contact@luisfloat.com", "Gmail", badgeColor, "gmail"),
+    ],
 };
