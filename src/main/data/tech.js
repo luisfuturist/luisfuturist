@@ -23,62 +23,14 @@ export default {
         {
             name: "Learning",
             items: [
-                {
-                    link: "https://nestjs.com/",
-                    alt: "NestJS",
-                    name: "NestJS",
-                    color: badgeColor,
-                    logo: "nestjs"
-                },
-                {
-                    link: "https://www.typescriptlang.org/",
-                    alt: "Typescript",
-                    name: "Typescript",
-                    color: badgeColor,
-                    logo: "typescript"
-                },
-                {
-                    link: "https://nodejs.org/en/",
-                    alt: "NodeJS",
-                    name: "NodeJS",
-                    color: badgeColor,
-                    logo: "node.js"
-                },
-                {
-                    link: "https://expressjs.com/",
-                    alt: "Express",
-                    name: "Express",
-                    color: badgeColor,
-                    logo: "express"
-                },
-                {
-                    link: "https://www.npmjs.com/",
-                    alt: "NPM",
-                    name: "NPM",
-                    color: badgeColor,
-                    logo: "npm"
-                },
-                {
-                    link: "https://mysql.com/",
-                    alt: "MySQL",
-                    name: "MySQL",
-                    color: badgeColor,
-                    logo: "mysql"
-                },
-                {
-                    link: "https://vuejs.org/",
-                    alt: "Vue",
-                    name: "Vue",
-                    color: badgeColor,
-                    logo: "vue.js"
-                },
-                {
-                    link: "https://vitepress.vuejs.org/",
-                    alt: "VitePress",
-                    name: "VitePress",
-                    color: badgeColor,
-                    logo: "vue.js"
-                },
+                _badge("NestJS", "https://nestjs.com/", "NestJS", badgeColor, "nestjs"),
+                _badge("Typescript", "https://www.typescriptlang.org/", "Typescript", badgeColor, "typescript"),
+                _badge("NodeJS", "https://nodejs.org/en/", "NodeJS", badgeColor, "nodejs"),
+                _badge("Express", "https://expressjs.com/", "Express", badgeColor, "express"),
+                _badge("NPM", "https://www.npmjs.com/", "NPM", badgeColor, "npm"),
+                _badge("MySQL", "https://mysql.com/", "MySQL", badgeColor, "mysql"),
+                _badge("Vue", "https://vuejs.org/", "Vue", badgeColor, "vue.js"),
+                _badge("VitePress", "https://vitepress.vuejs.org/", "VitePress", badgeColor, "vue.js"),
             ],
         },
         {
