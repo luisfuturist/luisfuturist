@@ -36,62 +36,14 @@ export default {
         {
             name: "Viewing",
             items: [
-                {
-                    link: "https://getbootstrap.com/",
-                    alt: "Bootstrap",
-                    name: "Bootstrap",
-                    color: badgeColor,
-                    logo: "bootstrap"
-                },
-                {
-                    link: "https://reactjs.org/",
-                    alt: "React",
-                    name: "React",
-                    color: badgeColor,
-                    logo: "react"
-                },
-                {
-                    link: "https://www.prisma.io/",
-                    alt: "Prisma",
-                    name: "Prisma",
-                    color: badgeColor,
-                    logo: "prisma"
-                },
-                {
-                    link: "https://tailwindcss.com/",
-                    alt: "TailwindCSS",
-                    name: "TailwindCSS",
-                    color: badgeColor,
-                    logo: "tailwindcss"
-                },
-                {
-                    link: "https://spring.io/",
-                    alt: "Spring",
-                    name: "Spring",
-                    color: badgeColor,
-                    logo: "spring"
-                },
-                {
-                    link: "https://wordpress.com/",
-                    alt: "Wordpress",
-                    name: "Wordpress",
-                    color: badgeColor,
-                    logo: "wordpress"
-                },
-                {
-                    link: "https://woocommerce.com/",
-                    alt: "Woocommerce",
-                    name: "Woocommerce",
-                    color: badgeColor,
-                    logo: "woocommerce"
-                },
-                {
-                    link: "https://www.jetbrains.com/opensource/kotlin/",
-                    alt: "Kotlin",
-                    name: "Kotlin",
-                    color: badgeColor,
-                    logo: "kotlin"
-                },
+                _badge("Bootstrap", "https://getbootstrap.com/", "Bootstrap", badgeColor, "bootstrap"),
+                _badge("React", "https://reactjs.org/", "React", badgeColor, "react"),
+                _badge("Prisma", "https://www.prisma.io/", "Prisma", badgeColor, "prisma"),
+                _badge("TailwindCSS", "https://tailwindcss.com/", "TailwindCSS", badgeColor, "tailwindcss"),
+                _badge("Spring", "https://spring.io/", "Spring", badgeColor, "spring"),
+                _badge("Wordpress", "https://wordpress.com/", "Wordpress", badgeColor, "wordpress"),
+                _badge("Woocommerce", "https://woocommerce.com/", "Woocommerce", badgeColor, "woocommerce"),
+                _badge("Kotlin", "https://www.jetbrains.com/opensource/kotlin/", "Kotlin", badgeColor, "kotlin"),
             ],
         },
     ],
