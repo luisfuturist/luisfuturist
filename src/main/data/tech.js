@@ -1,4 +1,5 @@
 import { colors } from "../tokens.js";
+import { _badge } from "../utils/factory.js";
 const badgeColor = colors.decisions.badge.normal;
 
 export default {
@@ -7,76 +8,16 @@ export default {
         {
             name: "Skills",
             items: [
-                {
-                    link: "https://javascript.com",
-                    alt: "Javascript",
-                    name: "Javascript",
-                    color: badgeColor,
-                    logo: "javascript"
-                },
-                {
-                    link: "https://html.spec.whatwg.org/",
-                    alt: "HTML5",
-                    name: "HTML5",
-                    color: badgeColor,
-                    logo: "html5"
-                },
-                {
-                    link: "https://www.w3.org/Style/CSS/Overview.en.html",
-                    alt: "CSS3",
-                    name: "CSS3",
-                    color: badgeColor,
-                    logo: "css3"
-                },
-                {
-                    link: "https://stylus-lang.com/",
-                    alt: "Stylus",
-                    name: "Stylus",
-                    color: badgeColor,
-                    logo: "stylus"
-                },
-                {
-                    link: "https://lesscss.org/",
-                    alt: "Less",
-                    name: "Less",
-                    color: badgeColor,
-                    logo: "less"
-                },
-                {
-                    link: "https://sass-lang.com/",
-                    alt: "Sass",
-                    name: "Sass",
-                    color: badgeColor,
-                    logo: "sass"
-                },
-                {
-                    link: "https://git-scm.com/",
-                    alt: "Git",
-                    name: "Git",
-                    color: badgeColor,
-                    logo: "git"
-                },
-                {
-                    link: "https://daringfireball.net/projects/markdown/",
-                    alt: "Markdown",
-                    name: "Markdown",
-                    color: badgeColor,
-                    logo: "markdown"
-                },
-                {
-                    link: "https://www.java.com/",
-                    alt: "Java",
-                    name: "Java",
-                    color: badgeColor,
-                    logo: "java"
-                },
-                {
-                    link: "https://gradle.org/",
-                    alt: "Gradle",
-                    name: "Gradle",
-                    color: badgeColor,
-                    logo: "gradle"
-                },
+                _badge("Javascript", "https://javascript.com", "Javascript", badgeColor, "javascript"),
+                _badge("HTML5", "https://html.spec.whatwg.org/", "HTML5", badgeColor, "html5"),
+                _badge("CSS3", "https://www.w3.org/Style/CSS/Overview.en.html", "CSS3", badgeColor, "css3"),
+                _badge("Stylus", "https://stylus-lang.com/", "Stylus", badgeColor, "stylus"),
+                _badge("Less", "https://lesscss.org/", "Less", badgeColor, "less"),
+                _badge("Sass", "https://sass-lang.com/", "Sass", badgeColor, "sass"),
+                _badge("Git", "https://git-scm.com/", "Git", badgeColor, "git"),
+                _badge("Markdown", "https://daringfireball.net/projects/markdown/", "Markdown", badgeColor, "markdown"),
+                _badge("Java", "https://www.java.com/", "Java", badgeColor, "java"),
+                _badge("Gradle", "https://gradle.org/", "Gradle", badgeColor, "gradle"),
             ],
         },
         {
