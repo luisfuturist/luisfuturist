@@ -19,7 +19,7 @@ mixin badges(session)
     each sessionItem in sessionItems
         +badge(sessionItem)
 
-mixin badge-session(session, type="h3")
+mixin badgeSession(session, type="h3")
     #{type}= session.name
     +badges(session)
 
