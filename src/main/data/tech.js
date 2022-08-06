@@ -38,6 +38,7 @@ export default {
             items: [
                 _badge("Bootstrap", "https://getbootstrap.com/", "Bootstrap", badgeColor, "bootstrap"),
                 _badge("React", "https://reactjs.org/", "React", badgeColor, "react"),
+                _badge("Angular", "https://angular.io", "Angular", badgeColor, "angular"),
                 _badge("Prisma", "https://www.prisma.io/", "Prisma", badgeColor, "prisma"),
                 _badge("TailwindCSS", "https://tailwindcss.com/", "TailwindCSS", badgeColor, "tailwindcss"),
                 _badge("Spring", "https://spring.io/", "Spring", badgeColor, "spring"),
