@@ -18,6 +18,7 @@ export default {
                 _badge("Markdown", "https://daringfireball.net/projects/markdown/", "Markdown", badgeColor, "markdown"),
                 _badge("Java", "https://www.java.com/", "Java", badgeColor, "java"),
                 _badge("Gradle", "https://gradle.org/", "Gradle", badgeColor, "gradle"),
+                _badge("JSON", "https://www.json.org/", "JSON", badgeColor, "json"),
             ],
         },
         {
