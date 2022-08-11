@@ -34,8 +34,8 @@ export default {
                 _badge("Sass", "https://sass-lang.com/", "Sass", badgeColor, "sass"),
             ],
             back: [
-                _badge("Java", "https://www.java.com/", "Java", badgeColor, "java"),
-                _badge("SQL", "https://www.iso.org/standard/63555.html", "SQL", badgeColor, "sql"),
+                _badge("Java", "https://www.java.com/", "Java", badgeColor, "oracle"),
+                _badge("SQL", "https://www.iso.org/standard/63555.html", "SQL", badgeColor, "microsoftsqlserver"),
                 _badge("MySQL", "https://mysql.com/", "MySQL", badgeColor, "mysql"),
             ],
         },
@@ -50,7 +50,7 @@ export default {
             ],
             back: [
                 _badge("NestJS", "https://nestjs.com/", "NestJS", badgeColor, "nestjs"),
-                _badge("NodeJS", "https://nodejs.org/en/", "NodeJS", badgeColor, "nodejs"),
+                _badge("NodeJS", "https://nodejs.org/en/", "NodeJS", badgeColor, "nodedotjs"),
                 _badge("Express", "https://expressjs.com/", "Express", badgeColor, "express"),
             ],
         },
