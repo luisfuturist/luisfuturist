@@ -69,6 +69,7 @@ export default {
             back: [
                 _badge("Spring", "https://spring.io/", "Spring", badgeColor, "spring"),
                 _badge("Prisma", "https://www.prisma.io/", "Prisma", badgeColor, "prisma"),
+                _badge("Sequelize", "https://sequelize.org/", "Sequelize", badgeColor, "sequelize"),
             ],
         },
     },
