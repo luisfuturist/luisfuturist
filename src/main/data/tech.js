@@ -19,6 +19,7 @@ export default {
                 _badge("Java", "https://www.java.com/", "Java", badgeColor, "java"),
                 _badge("Gradle", "https://gradle.org/", "Gradle", badgeColor, "gradle"),
                 _badge("JSON", "https://www.json.org/", "JSON", badgeColor, "json"),
+                _badge("XML", "https://www.w3.org/TR/REC-xml/", "XML", badgeColor, "w3c"),
             ],
         },
         {
