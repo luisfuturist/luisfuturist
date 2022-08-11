@@ -10,5 +10,6 @@ export default {
         _badge("Ubuntu", "https://ubuntu.com", "Ubuntu", badgeColor, "ubuntu"),
         _badge("Android", "https://android.com", "Android", badgeColor, "android"),
         _badge("Google Apps", "https://apps.google.com", "Google Apps", badgeColor, "google"),
+        _badge("GitHub", "https://github.com", "GitHub", badgeColor, "github"),
     ],
 };
