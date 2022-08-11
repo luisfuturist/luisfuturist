@@ -23,16 +23,26 @@ mixin badgeSession(session, type="h3")
     #{type}= session.name
     +badges(session)
 
-mixin row(title, items)
+mixin rowHeadersH(items)
+    tr
+        td
+        each item in items.h
+            td= item
+
+mixin row(title, techs)
     tr
         td!= title
-        td: +tr(items)
+        td: +tr(techs.common)
+        td: +tr(techs.front)
+        td: +tr(techs.back)
 
 mixin tr(items)
     each item in items
         +badge(item)
 
-mixin table(rows)
+mixin table(techs)
     table
-        each row in rows
-            +row(row.name, row.items)
+        +rowHeadersH(techs.headers)
+        +row(techs.headers.v[0], techs.content.skills)
+        +row(techs.headers.v[1], techs.content.learning)
+        +row(techs.headers.v[2], techs.content.viewing)
