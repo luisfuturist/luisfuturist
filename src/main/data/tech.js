@@ -48,7 +48,7 @@ export default {
             ],
             back: [
                 _badge("NestJS", "https://nestjs.com/", "NestJS", badgeColor, "nestjs"),
-                _badge("SQL", "https://en.wikipedia.org/wiki/SQL", "SQL", badgeColor, "sql"),
+                _badge("SQL", "https://www.iso.org/standard/63555.html", "SQL", badgeColor, "sql"),
                 _badge("MySQL", "https://mysql.com/", "MySQL", badgeColor, "mysql"),
                 _badge("NodeJS", "https://nodejs.org/en/", "NodeJS", badgeColor, "nodejs"),
                 _badge("Express", "https://expressjs.com/", "Express", badgeColor, "express"),
