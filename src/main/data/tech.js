@@ -19,7 +19,7 @@ export default {
     content: {
         skills: {
             common: [
-                _badge("Javascript", "https://javascript.com", "Javascript", badgeColor, "javascript"),
+                _badge("JavaScript", "https://javascript.com", "JavaScript", badgeColor, "javascript"),
                 _badge("Git", "https://git-scm.com/", "Git", badgeColor, "git"),
                 _badge("JSON", "https://www.json.org/", "JSON", badgeColor, "json"),
                 _badge("XML", "https://www.w3.org/TR/REC-xml/", "XML", badgeColor, "w3c"),
@@ -41,30 +41,30 @@ export default {
         },
         learning: {
             common: [
-                _badge("Typescript", "https://www.typescriptlang.org/", "Typescript", badgeColor, "typescript"),
+                _badge("TypeScript", "https://www.typescriptlang.org/", "TypeScript", badgeColor, "typescript"),
                 _badge("NPM", "https://www.npmjs.com/", "NPM", badgeColor, "npm"),
             ],
             front: [
-                _badge("Vue", "https://vuejs.org/", "Vue", badgeColor, "vue.js"),
+                _badge("Vue.js", "https://vuejs.org/", "Vue.js", badgeColor, "vue.js"),
                 _badge("VitePress", "https://vitepress.vuejs.org/", "VitePress", badgeColor, "vue.js"),
             ],
             back: [
                 _badge("NestJS", "https://nestjs.com/", "NestJS", badgeColor, "nestjs"),
-                _badge("NodeJS", "https://nodejs.org/en/", "NodeJS", badgeColor, "nodedotjs"),
+                _badge("Node.js", "https://nodejs.org/en/", "Node.js", badgeColor, "nodedotjs"),
                 _badge("Express", "https://expressjs.com/", "Express", badgeColor, "express"),
             ],
         },
         viewing: {
             common: [
                 _badge("Kotlin", "https://www.jetbrains.com/opensource/kotlin/", "Kotlin", badgeColor, "kotlin"),
-                _badge("Wordpress", "https://wordpress.com/", "Wordpress", badgeColor, "wordpress"),
-                _badge("Woocommerce", "https://woocommerce.com/", "Woocommerce", badgeColor, "woocommerce"),
+                _badge("WordPress", "https://wordpress.com/", "WordPress", badgeColor, "wordpress"),
+                _badge("WooCommerce", "https://woocommerce.com/", "WooCommerce", badgeColor, "woocommerce"),
             ],
             front: [
                 _badge("Bootstrap", "https://getbootstrap.com/", "Bootstrap", badgeColor, "bootstrap"),
                 _badge("React", "https://reactjs.org/", "React", badgeColor, "react"),
                 _badge("Angular", "https://angular.io", "Angular", badgeColor, "angular"),
-                _badge("TailwindCSS", "https://tailwindcss.com/", "TailwindCSS", badgeColor, "tailwindcss"),
+                _badge("Tailwind CSS", "https://tailwindcss.com/", "Tailwind CSS", badgeColor, "tailwindcss"),
             ],
             back: [
                 _badge("Spring", "https://spring.io/", "Spring", badgeColor, "spring"),
