@@ -1,13 +1,4 @@
--
-    var badgeApi = "https://img.shields.io/badge/$LABEL-$NAME-$COLOR?style=flat&logo=$LOGO";
-
-    var getBadgeUrl = (info) => {
-        return badgeApi
-            .replaceAll("$LABEL", info.label ? info.label : "")
-            .replaceAll("$NAME", info.name ? info.name : "")
-            .replaceAll("$COLOR", info.color ? info.color : "")
-            .replaceAll("$LOGO", info.logo ? info.logo : "");
-    };
+include packages/lib-badge.pug
 
 mixin badge(item)
     - var url = getBadgeUrl(item);
