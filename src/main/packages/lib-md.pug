@@ -1,0 +1,16 @@
+mixin md_h(amount, content)
+    - const hMarks = Array(amount).fill('#').join("");
+    .
+        #{hMarks} !{content}
+
+mixin md_p(content)
+    .
+        !{content}
+
+mixin md_bq(content)
+    .
+        > !{content}
+
+-
+    const mdTr = (items) => "| " + items.join(" | ");
+    const mdThEnd = (largerColArray) => "|" + Array(largerColArray.length).fill("-|").join("");
