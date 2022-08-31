@@ -1,39 +1,27 @@
 include packages/lib-badge.pug
 
-mixin html_badge(item)
-    - var url = getBadgeUrl(item);
-    a(href=item.link): img(src=url alt=item.alt)
-    | 
-
 mixin html_badges(session)
-    - var sessionItems = session.items;
-    each sessionItem in sessionItems
-        +html_badge(sessionItem)
+    .
+        !{getBadgesHtml(session.items)}
 
 mixin html_badgeSession(session, type="h3")
     #{type}= session.name
     +html_badges(session)
 
-mixin html_trh(items)
-    tr
-        td
-        each item in items.h
-            td= item
+-
+    const techsBodyArray = (techs) => [ techs.common, techs.front, techs.back ].map(
+        (tech) => getBadgesHtml(tech)
+    );
 
-mixin html_tr(title, techs)
+mixin html_tr(cells)
     tr
-        td!= title
-        td: +html_trbody(techs.common)
-        td: +html_trbody(techs.front)
-        td: +html_trbody(techs.back)
-
-mixin html_trbody(items)
-    each item in items
-        +html_badge(item)
+        each cell in cells
+            td!= cell
 
 mixin html_tableTechs(techs)
     table
-        +html_trh(techs.headers)
-        +html_tr(techs.headers.v[0], techs.content.skills)
-        +html_tr(techs.headers.v[1], techs.content.learning)
-        +html_tr(techs.headers.v[2], techs.content.viewing)
+        +html_tr([ "", ...techs.headers.h ])
+        +html_tr([ techs.headers.v[0], ...techsBodyArray(techs.content.skills) ])
+        +html_tr([ techs.headers.v[1], ...techsBodyArray(techs.content.learning) ])
+        +html_tr([ techs.headers.v[2], ...techsBodyArray(techs.content.viewing) ])
+        br
