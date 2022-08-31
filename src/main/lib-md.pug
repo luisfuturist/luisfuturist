@@ -2,7 +2,7 @@ include packages/lib-badge.pug
 
 mixin md_badges(session)
     .
-        !{getBadgesHtml(session.items)}
+        !{getBadgesMd(session.items)}
 
 mixin md_badgeSession(session, type=3)
     +md_h(type, session.name)
@@ -10,7 +10,7 @@ mixin md_badgeSession(session, type=3)
 
 -
     const techsBodyArray = (techs) => [ techs.common, techs.front, techs.back ].map(
-        (tech) => getBadgesHtml(tech)
+        (tech) => getBadgesMd(tech)
     );
 
 mixin md_tableTechs(techs)
