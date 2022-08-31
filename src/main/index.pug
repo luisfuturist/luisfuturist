@@ -1,7 +1,7 @@
-include lib.pug
+include lib-html.pug
 
 h2!= about.title
-+badges(stati)
++html_badges(stati)
 
 h3!= about.name
 
@@ -13,7 +13,7 @@ table: tr: td
     blockquote: p!= about.note
 
 h3!= techs.name
-+table(techs)
++html_tableTechs(techs)
 
-+badgeSession(workspace)
-+badgeSession(contacts)
++html_badgeSession(workspace)
++html_badgeSession(contacts)
