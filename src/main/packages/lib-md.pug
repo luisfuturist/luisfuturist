@@ -16,5 +16,5 @@ mixin md_bq(content)
         > !{format(content)}
 
 -
-    const mdTr = (items) => "| " + items.join(" | ") + " |";
-    const mdThEnd = (largerColArray) => "|" + Array(largerColArray.length).fill("---|").join("");
+    const mdTr = (items) => items.join(" | ");
+    const mdThEnd = (largerColArray) => Array(largerColArray.length - 1).fill("-|").join("") + "-";
