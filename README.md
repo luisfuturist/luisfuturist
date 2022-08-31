@@ -3,7 +3,6 @@
 ### About
 #### Hey there, it's Luis!
 You can reach me at **contact@luisfloat.com** or any social media.<br> I'm interested in **Software Engineering**.<br> Currently learning **Web Technologies**.
-> **Note:** I also have interest in Philosophy, Digital Design and Scifi Art.
 ### Technologies
 |  | Common | Frontend | Backend
 |-|-|-|-|
