@@ -1,15 +1,19 @@
+-
+    const format = (text) => text
+        .replaceAll("<strong>", "**").replaceAll("</strong>", "**")
+
 mixin md_h(amount, content)
     - const hMarks = Array(amount).fill('#').join("");
     .
-        #{hMarks} !{content}
+        #{hMarks} !{format(content)}
 
 mixin md_p(content)
     .
-        !{content}
+        !{format(content)}
 
 mixin md_bq(content)
     .
-        > !{content}
+        > !{format(content)}
 
 -
     const mdTr = (items) => "| " + items.join(" | ");

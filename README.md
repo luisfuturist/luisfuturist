@@ -2,8 +2,8 @@
 <a href="https://github.com/luisfloat"><img src="https://img.shields.io/badge/working-freelancing; open to work-005c99?style=flat&logo=" alt="working status"></a> <a href="https://github.com/luisfloat"><img src="https://img.shields.io/badge/learning-autodidactically-005c99?style=flat&logo=" alt="learning status"></a> <a href="https://www.google.com/maps/place/State+of+Santa+Catarina"><img src="https://img.shields.io/badge/living-Brazil, SC-005c99?style=flat&logo=" alt="living status"></a> 
 ### About
 #### Hey there, it's Luis!
-You can reach me at <strong>contact@luisfloat.com</strong> or any social media.<br> I'm interested in <strong>Software Engineering</strong>.<br> Currently learning <strong>Web Technologies</strong>.
-> <strong>Note:</strong> I also have interest in Philosophy, Digital Design and Scifi Art.
+You can reach me at **contact@luisfloat.com** or any social media.<br> I'm interested in **Software Engineering**.<br> Currently learning **Web Technologies**.
+> **Note:** I also have interest in Philosophy, Digital Design and Scifi Art.
 ### Technologies
 |  | Common | Frontend | Backend
 |-|-|-|-|
