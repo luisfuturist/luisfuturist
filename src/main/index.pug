@@ -1,19 +1,16 @@
-include lib-html.pug
+include lib-md.pug
+include packages/lib-md.pug
 
-h2!= about.title
-+html_badges(stati)
++md_h(2, about.title)
++md_badges(stati)
 
-h3!= about.name
++md_h(3, about.name)
++md_h(4, about.heading)
++md_p(about.paragraph)
++md_bq(about.note)
 
-table: tr: td
-    h3!= about.heading
-    br
-    p!= about.paragraph
-    br
-    blockquote: p!= about.note
++md_h(3, techs.name)
++md_tableTechs(techs)
 
-h3!= techs.name
-+html_tableTechs(techs)
-
-+html_badgeSession(workspace)
-+html_badgeSession(contacts)
++md_badgeSession(workspace)
++md_badgeSession(contacts)
