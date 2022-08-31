@@ -20,7 +20,17 @@
             .replaceAll("    ", "");
     }
 
+    const getBadgeMd = (item) => {
+        const url = getBadgeUrl(item);
+        return `[![${item.alt}](${url})](${item.link})`;
+    }
+
     const getBadgesHtml = (items) => items.reduce(
         (obj, item) => obj += getBadgeHtml(item) + " ",
+        ""
+    );
+
+    const getBadgesMd = (items) => items.reduce(
+        (obj, item) => obj += getBadgeMd(item) + " ",
         ""
     );
