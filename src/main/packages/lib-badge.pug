@@ -6,7 +6,8 @@
             .replaceAll("$LABEL", info.label ? info.label : "")
             .replaceAll("$NAME", info.name ? info.name : "")
             .replaceAll("$COLOR", info.color ? info.color : "")
-            .replaceAll("$LOGO", info.logo ? info.logo : "");
+            .replaceAll("$LOGO", info.logo ? info.logo : "")
+            .replaceAll(" ", "%20");
     };
 
     const getBadgeHtml = (item) => {
