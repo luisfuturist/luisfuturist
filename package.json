@@ -1,6 +1,6 @@
 {
     "name": "lf-github-readme",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "description": "Config files for my profile.",
     "main": "compile.js",
     "type": "module",

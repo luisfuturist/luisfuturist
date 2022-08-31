@@ -8,3 +8,19 @@
             .replaceAll("$COLOR", info.color ? info.color : "")
             .replaceAll("$LOGO", info.logo ? info.logo : "");
     };
+
+    const getBadgeHtml = (item) => {
+        const url = getBadgeUrl(item);
+        return /*html*/`
+            <a href="${item.link}">
+                <img src="${url}" alt="${item.alt}">
+            </a>
+        `
+            .replaceAll("\n", "")
+            .replaceAll("    ", "");
+    }
+
+    const getBadgesHtml = (items) => items.reduce(
+        (obj, item) => obj += getBadgeHtml(item) + " ",
+        ""
+    );
