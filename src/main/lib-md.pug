@@ -15,8 +15,8 @@ mixin md_badgeSession(session, type=3)
 
 mixin md_tableTechs(techs)
     . 
-        #{mdTr([ "", ...techs.headers.h ])}
-        #{mdThEnd([ "", ...techs.headers.h ])}
+        #{mdTr([ "Level", ...techs.headers.h ])}
+        #{mdThEnd([ "Level", ...techs.headers.h ])}
         !{mdTr([ techs.headers.v[0], ...techsBodyArray(techs.content.skills) ])}
         !{mdTr([ techs.headers.v[1], ...techsBodyArray(techs.content.learning) ])}
         !{mdTr([ techs.headers.v[2], ...techsBodyArray(techs.content.viewing) ])}
