@@ -5,7 +5,6 @@
 mixin md_h(amount, content)
     - const hMarks = Array(amount).fill('#').join("");
     .
-        
         #{hMarks} !{format(content)}
 
 
@@ -15,7 +14,9 @@ mixin md_p(content)
 
 mixin md_bq(content)
     .
+        !{br}
         > !{format(content)}
+        !{br}
 
 -
     const mdTr = (items) => items.join(" | ");
