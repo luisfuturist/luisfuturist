@@ -1,7 +1,7 @@
 {
-    "name": "lf-github-readme",
+    "name": "lf-github",
     "version": "0.8.8",
-    "description": "Config files for my profile.",
+    "description": "My GitHub user profile special repository.",
     "main": "compile.js",
     "type": "module",
     "scripts": {
