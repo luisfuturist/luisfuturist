@@ -1,20 +1,9 @@
-include packages/lib-badge.pug
-
-mixin md_badges(session)
-    .
-        !{getBadgesMd(session.items)}
-        !{br}
-
-mixin md_badgeSession(session, type=3)
-    +md_h(type, session.name)
-    +md_badges(session)
-
--
-    const techsBodyArray = (techs) => [ techs.common, techs.front, techs.back ].map(
-        (tech) => getBadgesMd(tech)
-    );
-
 mixin md_tableTechs(techs)
+    -
+        const techsBodyArray = (techs) => [ techs.common, techs.front, techs.back ].map(
+            (tech) => getBadgesMd(tech)
+        );
+
     . 
         #{mdTr([ "Level", ...techs.headers.h ])}
         #{mdThEnd([ "Level", ...techs.headers.h ])}
