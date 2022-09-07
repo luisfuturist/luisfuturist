@@ -1,6 +1,6 @@
 import fs from 'fs';
 import pugApi from 'pug';
-import locals from './src/main/data/index.js';
+import locals from './src/main/content/index.js';
 
 var config = {
     main: {
