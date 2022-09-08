@@ -31,6 +31,8 @@ export default {
                 _badge("Stylus", "https://stylus-lang.com/", "Stylus", badgeColor, "stylus"),
                 _badge("Less", "https://lesscss.org/", "Less", badgeColor, "less"),
                 _badge("Sass", "https://sass-lang.com/", "Sass", badgeColor, "sass"),
+                _badge("Pug", "https://pugjs.org/", "Pug", badgeColor, "pug"),
+                _badge("Handlebars", "https://pugjs.org/", "Handlebars", badgeColor, "handlebars.js"),
             ],
             back: [
                 _badge("Node.js", "https://nodejs.org/en/", "Node.js", badgeColor, "nodedotjs"),
@@ -42,10 +44,12 @@ export default {
             common: [
                 _badge("TypeScript", "https://www.typescriptlang.org/", "TypeScript", badgeColor, "typescript"),
                 _badge("NPM", "https://www.npmjs.com/", "NPM", badgeColor, "npm"),
+                _badge("Vitest", "https://vitest.dev/", "Vitest", badgeColor, "vitest.js"),
             ],
             front: [
                 _badge("Vue.js", "https://vuejs.org/", "Vue.js", badgeColor, "vue.js"),
                 _badge("VitePress", "https://vitepress.vuejs.org/", "VitePress", badgeColor, "vue.js"),
+                _badge("Vite", "https://vitejs.dev/", "Vite", badgeColor, "vite"),
             ],
             back: [
                 _badge("NestJS", "https://nestjs.com/", "NestJS", badgeColor, "nestjs"),
