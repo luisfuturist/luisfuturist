@@ -23,7 +23,6 @@ export default {
                 _badge("Git", "https://git-scm.com/", "Git", badgeColor, "git"),
                 _badge("JSON", "https://www.json.org/", "JSON", badgeColor, "json"),
                 _badge("XML", "https://www.w3.org/TR/REC-xml/", "XML", badgeColor, "w3c"),
-                _badge("Gradle", "https://gradle.org/", "Gradle", badgeColor, "gradle"),
                 _badge("Markdown", "https://daringfireball.net/projects/markdown/", "Markdown", badgeColor, "markdown"),
             ],
             front: [
@@ -34,7 +33,7 @@ export default {
                 _badge("Sass", "https://sass-lang.com/", "Sass", badgeColor, "sass"),
             ],
             back: [
-                _badge("Java", "https://www.java.com/", "Java", badgeColor, "oracle"),
+                _badge("Node.js", "https://nodejs.org/en/", "Node.js", badgeColor, "nodedotjs"),
                 _badge("SQL", "https://www.iso.org/standard/63555.html", "SQL", badgeColor, "microsoftsqlserver"),
                 _badge("MySQL", "https://mysql.com/", "MySQL", badgeColor, "mysql"),
             ],
@@ -50,8 +49,8 @@ export default {
             ],
             back: [
                 _badge("NestJS", "https://nestjs.com/", "NestJS", badgeColor, "nestjs"),
-                _badge("Node.js", "https://nodejs.org/en/", "Node.js", badgeColor, "nodedotjs"),
                 _badge("Express", "https://expressjs.com/", "Express", badgeColor, "express"),
+                _badge("Sequelize", "https://sequelize.org/", "Sequelize", badgeColor, "sequelize"),
             ],
         },
         viewing: {
@@ -59,6 +58,7 @@ export default {
                 _badge("Kotlin", "https://www.jetbrains.com/opensource/kotlin/", "Kotlin", badgeColor, "kotlin"),
                 _badge("WordPress", "https://wordpress.com/", "WordPress", badgeColor, "wordpress"),
                 _badge("WooCommerce", "https://woocommerce.com/", "WooCommerce", badgeColor, "woocommerce"),
+                _badge("Gradle", "https://gradle.org/", "Gradle", badgeColor, "gradle"),
             ],
             front: [
                 _badge("Bootstrap", "https://getbootstrap.com/", "Bootstrap", badgeColor, "bootstrap"),
@@ -67,9 +67,9 @@ export default {
                 _badge("Tailwind CSS", "https://tailwindcss.com/", "Tailwind CSS", badgeColor, "tailwindcss"),
             ],
             back: [
+                _badge("Java", "https://www.java.com/", "Java", badgeColor, "oracle"),
                 _badge("Spring", "https://spring.io/", "Spring", badgeColor, "spring"),
                 _badge("Prisma", "https://www.prisma.io/", "Prisma", badgeColor, "prisma"),
-                _badge("Sequelize", "https://sequelize.org/", "Sequelize", badgeColor, "sequelize"),
             ],
         },
     },
