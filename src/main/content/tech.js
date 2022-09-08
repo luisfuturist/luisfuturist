@@ -44,7 +44,7 @@ export default {
             common: [
                 _badge("TypeScript", "https://www.typescriptlang.org/", "TypeScript", badgeColor, "typescript"),
                 _badge("NPM", "https://www.npmjs.com/", "NPM", badgeColor, "npm"),
-                _badge("Vitest", "https://vitest.dev/", "Vitest", badgeColor, "vitest.js"),
+                _badge("Vitest", "https://vitest.dev/", "Vitest", badgeColor, "vite"),
             ],
             front: [
                 _badge("Vue.js", "https://vuejs.org/", "Vue.js", badgeColor, "vue.js"),
