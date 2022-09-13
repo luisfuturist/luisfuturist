@@ -1,6 +1,6 @@
-import { colors } from "../tokens.js";
+import decisions from "../tokens.js";
 import { _badgeLabel } from "../utils/factory.js";
-const badgeColor = colors.decisions.badge.primary;
+const badgeColor = decisions.badge.color.primary;
 
 export default {
     name: "Luis",
