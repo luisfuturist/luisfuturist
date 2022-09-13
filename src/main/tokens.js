@@ -1,17 +1,13 @@
-const colorOptions = {
-    gray2: "333333",
-    azure3: "005c99",
-};
-const colorDecisions = {
-    badge: {
-        normal: colorOptions.gray2,
-        primary: colorOptions.azure3,
-    },
-};
+import options from "lfds-tokens";
+const { color } = options;
 
 let colors = {
-    options: colorOptions,
-    decisions: colorDecisions,
+    decisions: {
+        badge: {
+            normal: color.gray['2'],
+            primary: color.azure['3'],
+        },
+    },
 };
 
 export { colors };
