@@ -1,0 +1,10 @@
+mixin don(name, value)
+    +li(`${name}: \`${value}\``)
+
+mixin donSession(donate)
+    +h(3, donate.name)
+    each wallet in donate.items
+        +don(wallet.name, wallet.pk)
+    .
+        !{br}
+        !{br}
