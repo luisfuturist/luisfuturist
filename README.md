@@ -22,7 +22,14 @@ Viewing | [![Kotlin](https://img.shields.io/badge/-Kotlin-333333?style=flat&logo
 
 [![Vscode](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visualstudio)](https://code.visualstudio.com/) [![Chrome](https://img.shields.io/badge/-Chrome-333333?style=flat&logo=googlechrome)](https://google.com/chrome) [![Ubuntu](https://img.shields.io/badge/-Ubuntu-333333?style=flat&logo=ubuntu)](https://ubuntu.com) [![Android](https://img.shields.io/badge/-Android-333333?style=flat&logo=android)](https://android.com) [![Google Apps](https://img.shields.io/badge/-Google%20Apps-333333?style=flat&logo=google)](https://apps.google.com) [![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)](https://github.com) 
 
-### Socials
+### Donate
+
+- XNO: `nano_3ke34tcxrqz38s91dw8stxdoqodwffmar34txn7hh9tfbw9r4y6mxyz85iey`
+- XMR: `4A6M81P8WuKM26cMCcuRXSFKZsLcUEjWNYfCRErffw9qLguwMLcnNjdHNs8QDJAsg1J4zhTR9hkszMcg2duRAa5p76usJPM`
+- BTC: `1Bfrd9aRgtQXmoSoPaRpKqWa1YLFmgGXTw`
+- ETH: `0x291AC43629ac7BFD514d0251aab6c1099B052571`
+
+### Links
 
 [![Twitter](https://img.shields.io/badge/-Twitter-333333?style=flat&logo=twitter)](https://twitter.com/luisfloat) [![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)](https://github.com/luisfloat) [![Instagram](https://img.shields.io/badge/-Instagram-333333?style=flat&logo=instagram)](https://instagram.com/luisfloat) [![Gmail](https://img.shields.io/badge/-Gmail-333333?style=flat&logo=gmail)](mailto:contact@luisfloat.com) 
 
