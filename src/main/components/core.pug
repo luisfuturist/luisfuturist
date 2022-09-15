@@ -2,23 +2,23 @@
     const format = (text) => text
         .replaceAll("<strong>", "**").replaceAll("</strong>", "**")
 
-mixin md_h(amount, content)
+mixin h(amount, content)
     - const hMarks = Array(amount).fill('#').join("");
     .
         #{hMarks} !{format(content)}
 
 
-mixin md_p(content)
+mixin p(content)
     .
         !{format(content)}
 
-mixin md_bq(content)
+mixin bq(content)
     .
         !{br}
         > !{format(content)}
         !{br}
 
-mixin md_li(content)
+mixin li(content)
     .
         - !{format(content)}
 
