@@ -18,6 +18,10 @@ mixin md_bq(content)
         > !{format(content)}
         !{br}
 
+mixin md_li(content)
+    .
+        - !{format(content)}
+
 -
     const mdTr = (items) => items.join(" | ");
     const mdThEnd = (largerColArray) => Array(largerColArray.length - 1).fill("-|").join("") + "-";
