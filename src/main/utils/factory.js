@@ -18,7 +18,15 @@ function _badgeLabel(name, label, link, alt, color) {
     };
 }
 
+function _wallet(name, pk) {
+    return {
+        name,
+        pk,
+    };
+}
+
 export {
     _badge,
     _badgeLabel,
+    _wallet,
 };
