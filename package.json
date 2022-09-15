@@ -1,6 +1,6 @@
 {
     "name": "lf-github",
-    "version": "0.11.0",
+    "version": "0.11.1",
     "description": "My GitHub user profile special repository.",
     "main": "compile.js",
     "type": "module",
