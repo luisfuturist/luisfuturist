@@ -18,4 +18,7 @@ md
     ))
 )
 
+.header(content.contacts.name, 3)
+.paragraph(inlineBadges(content.contacts.items))
+
 export default md;
