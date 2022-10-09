@@ -1,6 +1,8 @@
 const badgeUrl = (item) => {
     let { label, name, color, logo } = item;
-    color = color.replace("#", "")
+    label = label || "";
+    color = color.replace("#", "");
+    logo = logo || "";
 
     return `https://img.shields.io/badge/${label}-${name}-${color}?style=flat&logo=${logo}`
         .replaceAll(" ", "%20");
