@@ -11,6 +11,9 @@ md
 .header(content.about.heading, 4)
 .paragraph(content.about.paragraph + "\n" + quote(content.about.note))
 
+.header(content.workspace.name, 3)
+.paragraph(inlineBadges(content.workspace.items))
+
 .header(content.donate.name, 3)
 .list(
     content.donate.items.map((coin) => (
