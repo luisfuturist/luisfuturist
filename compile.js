@@ -1,6 +1,5 @@
 import fs from 'fs';
-import pugApi from 'pug';
-import locals from './src/main/content/index.js';
+import md from './src/main/index.js';
 
 var config = {
     main: {
@@ -9,7 +8,7 @@ var config = {
     }
 };
 
-var compileFile = pugApi.compileFile(config.main.src);
-var html = compileFile(locals);
+const html = md.render()
+    .replaceAll("<strong>", "**").replaceAll("</strong>", "**");
 
 fs.writeFile(config.main.dist, html, () => {});
