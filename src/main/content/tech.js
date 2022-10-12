@@ -36,6 +36,7 @@ export default {
             ],
             back: [
                 _badge("Node.js", "https://nodejs.org/en/", "Node.js", badgeColor, "nodedotjs"),
+                _badge("Express", "https://expressjs.com/", "Express", badgeColor, "express"),
                 _badge("SQL", "https://www.iso.org/standard/63555.html", "SQL", badgeColor, "microsoftsqlserver"),
                 _badge("MySQL", "https://mysql.com/", "MySQL", badgeColor, "mysql"),
             ],
@@ -45,34 +46,31 @@ export default {
                 _badge("TypeScript", "https://www.typescriptlang.org/", "TypeScript", badgeColor, "typescript"),
                 _badge("NPM", "https://www.npmjs.com/", "NPM", badgeColor, "npm"),
                 _badge("Vitest", "https://vitest.dev/", "Vitest", badgeColor, "vite"),
+                _badge("Vite", "https://vitejs.dev/", "Vite", badgeColor, "vite"),
             ],
             front: [
                 _badge("Vue.js", "https://vuejs.org/", "Vue.js", badgeColor, "vue.js"),
+                _badge("React", "https://reactjs.org/", "React", badgeColor, "react"),
                 _badge("VitePress", "https://vitepress.vuejs.org/", "VitePress", badgeColor, "vue.js"),
-                _badge("Vite", "https://vitejs.dev/", "Vite", badgeColor, "vite"),
             ],
             back: [
                 _badge("NestJS", "https://nestjs.com/", "NestJS", badgeColor, "nestjs"),
-                _badge("Express", "https://expressjs.com/", "Express", badgeColor, "express"),
                 _badge("Sequelize", "https://sequelize.org/", "Sequelize", badgeColor, "sequelize"),
+                _badge("MongoDB", "https://mongodb.com/", "MongoDB", badgeColor, "mongodb"),
+                _badge("Mongoose", "https://mongoosejs.com/", "Mongoose", badgeColor, "mongoose"),
             ],
         },
         viewing: {
             common: [
-                _badge("Kotlin", "https://www.jetbrains.com/opensource/kotlin/", "Kotlin", badgeColor, "kotlin"),
                 _badge("WordPress", "https://wordpress.com/", "WordPress", badgeColor, "wordpress"),
                 _badge("WooCommerce", "https://woocommerce.com/", "WooCommerce", badgeColor, "woocommerce"),
-                _badge("Gradle", "https://gradle.org/", "Gradle", badgeColor, "gradle"),
             ],
             front: [
                 _badge("Bootstrap", "https://getbootstrap.com/", "Bootstrap", badgeColor, "bootstrap"),
-                _badge("React", "https://reactjs.org/", "React", badgeColor, "react"),
                 _badge("Angular", "https://angular.io", "Angular", badgeColor, "angular"),
                 _badge("Tailwind CSS", "https://tailwindcss.com/", "Tailwind CSS", badgeColor, "tailwindcss"),
             ],
             back: [
-                _badge("Java", "https://www.java.com/", "Java", badgeColor, "oracle"),
-                _badge("Spring", "https://spring.io/", "Spring", badgeColor, "spring"),
                 _badge("Prisma", "https://www.prisma.io/", "Prisma", badgeColor, "prisma"),
             ],
         },
