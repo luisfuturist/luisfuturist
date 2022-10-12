@@ -20,7 +20,7 @@ You can reach me at **contact@luisfloat.com** or any social media.<br> I'm inter
 
 ### Workspace
 
-[![Vscode](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visualstudio)](https://code.visualstudio.com/) [![Chrome](https://img.shields.io/badge/-Chrome-333333?style=flat&logo=googlechrome)](https://google.com/chrome) [![Ubuntu](https://img.shields.io/badge/-Ubuntu-333333?style=flat&logo=ubuntu)](https://ubuntu.com) [![Android](https://img.shields.io/badge/-Android-333333?style=flat&logo=android)](https://android.com) [![Google Apps](https://img.shields.io/badge/-Google%20Apps-333333?style=flat&logo=google)](https://apps.google.com) [![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)](https://github.com) 
+[![Vscode](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visualstudio)](https://code.visualstudio.com/) [![Chrome](https://img.shields.io/badge/-Chrome-333333?style=flat&logo=googlechrome)](https://google.com/chrome) [![Linux](https://img.shields.io/badge/-Linux-333333?style=flat&logo=linux)](https://www.linuxfoundation.org/) [![Android](https://img.shields.io/badge/-Android-333333?style=flat&logo=android)](https://android.com) [![Google Apps](https://img.shields.io/badge/-Google%20Apps-333333?style=flat&logo=google)](https://apps.google.com) [![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)](https://github.com) 
 
 ### Donate
 

@@ -7,7 +7,7 @@ export default {
     items: [
         _badge("Visual Studio Code", "https://code.visualstudio.com/", "Vscode", badgeColor, "visualstudio"),
         _badge("Chrome", "https://google.com/chrome", "Chrome", badgeColor, "googlechrome"),
-        _badge("Ubuntu", "https://ubuntu.com", "Ubuntu", badgeColor, "ubuntu"),
+        _badge("Linux", "https://www.linuxfoundation.org/", "Linux", badgeColor, "linux"),
         _badge("Android", "https://android.com", "Android", badgeColor, "android"),
         _badge("Google Apps", "https://apps.google.com", "Google Apps", badgeColor, "google"),
         _badge("GitHub", "https://github.com", "GitHub", badgeColor, "github"),
