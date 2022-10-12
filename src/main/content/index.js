@@ -5,7 +5,7 @@ import workspace from './workspace.js';
 import contacts from './contacts.js';
 import donate from './donate.js';
 
-export default {
+export {
     stati,
     about,
     techs,
