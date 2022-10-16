@@ -6,7 +6,7 @@
     "type": "module",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "main:compile": "node compile.js"
+        "main:build": "node compile.js"
     },
     "keywords": [
         "config",
