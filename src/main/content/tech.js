@@ -47,11 +47,13 @@ export default {
                 _badge("NPM", "https://www.npmjs.com/", "NPM", badgeColor, "npm"),
                 _badge("Vitest", "https://vitest.dev/", "Vitest", badgeColor, "vite"),
                 _badge("Vite", "https://vitejs.dev/", "Vite", badgeColor, "vite"),
+                _badge("Docker", "https://www.docker.com/", "Docker", badgeColor, "docker"),
             ],
             front: [
                 _badge("Vue.js", "https://vuejs.org/", "Vue.js", badgeColor, "vue.js"),
                 _badge("React", "https://reactjs.org/", "React", badgeColor, "react"),
                 _badge("VitePress", "https://vitepress.vuejs.org/", "VitePress", badgeColor, "vue.js"),
+                _badge("Bootstrap", "https://getbootstrap.com/", "Bootstrap", badgeColor, "bootstrap"),
             ],
             back: [
                 _badge("NestJS", "https://nestjs.com/", "NestJS", badgeColor, "nestjs"),
@@ -66,7 +68,6 @@ export default {
                 _badge("WooCommerce", "https://woocommerce.com/", "WooCommerce", badgeColor, "woocommerce"),
             ],
             front: [
-                _badge("Bootstrap", "https://getbootstrap.com/", "Bootstrap", badgeColor, "bootstrap"),
                 _badge("Angular", "https://angular.io", "Angular", badgeColor, "angular"),
                 _badge("Tailwind CSS", "https://tailwindcss.com/", "Tailwind CSS", badgeColor, "tailwindcss"),
             ],
