@@ -4,7 +4,7 @@ const badgeUrl = (item) => {
     color = color.replace("#", "");
     logo = logo || "";
 
-    return `https://img.shields.io/badge/${label}-${name}-${color}?style=flat&logo=${logo}`
+    return `https://img.shields.io/badge/${label}-${name}-${color}?style=flat-square&logo=${logo}`
         .replaceAll(" ", "%20");
 };
 
