@@ -1,5 +1,6 @@
 const badgeUrl = (item) => {
     let { label, name, color, logo } = item;
+    name = encodeURIComponent(name)
     label = label || "";
     color = color.replace("#", "");
     logo = logo || "";
