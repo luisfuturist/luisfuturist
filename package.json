@@ -1,28 +1,25 @@
 {
-    "name": "lf-github",
-    "version": "0.13.0",
-    "description": "My GitHub user profile special repository.",
-    "main": "script.js",
-    "type": "module",
-    "scripts": {
-        "dev": "npx vesic run dev -w './src/**/*.{js,jsx}'",
-        "build": "node scripts/dev.js"
-    },
-    "keywords": [
-        "config",
-        "profile"
-    ],
-    "author": "Luis Float <contact@luisfloat.com> (https://luisfloat.com)",
-    "homepage": "https://github.com/luisfloat/luisfloat",
-    "repo": "github:luisfloat/luisfloat",
-    "bugs": "https://github.com/luisfloat/luisfloat/issues",
-    "license": "SEE LICENSE IN LICENSE.md",
-    "devDependencies": {
-        "lfds-tokens": "github:luisfloat/lfds-tokens",
-        "node-html-markdown": "^1.3.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "vesic-js": "github:inforgdev/vesic-js",
-        "vite": "^4.3.9"
-    }
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node ./scripts/build.js"
+  },
+  "devDependencies": {
+    "@mdx-js/rollup": "^3.0.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "lfds-tokens": "github:luisfloat/lfds-tokens",
+    "node-html-markdown": "^1.3.0",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark-gfm": "^4.0.0",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.4"
+  }
 }

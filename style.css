@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply flex items-center justify-center min-h-screen bg-[#0D1117];
+}
+
+#root {
+    @apply prose prose-invert;
+}

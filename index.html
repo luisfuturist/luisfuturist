@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>README</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module">
+    import React from 'react'
+    import { createRoot } from 'react-dom/client'
+    import './style.css'
+    import README from './src/README.mdx'
+
+    const root = createRoot(document.querySelector('#root'))
+    root.render(React.createElement(README))
+  </script>
+</body>
+
+</html>
