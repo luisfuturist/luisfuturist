@@ -7,11 +7,11 @@ const badgeColor = color.gray['2']
 
 export default {
   links: [
-    { name: 'luisfloat', href: 'https://linkedin.com/in/luisfloat', alt: 'LinkedIn',
+    { name: 'luisfuturist', href: 'https://linkedin.com/in/luisfuturist', alt: 'LinkedIn',
     color: badgeColor, logo: 'linkedin' },
-    { name: '@luisfloat', href: 'https://x.com/luisfloat', alt: 'X (Social Media)',
+    { name: '@luisfuturist', href: 'https://x.com/luisfuturist', alt: 'X (Social Media)',
     color: badgeColor, logo: 'x' },
-    { name: 'luisfloat', href: 'https://discord.com/luisfloat', alt: 'Discord',
+    { name: 'luisfuturist', href: 'https://discord.com/luisfuturist', alt: 'Discord',
     color: badgeColor, logo: 'discord' },
   ],
 } satisfies { links: ShieldItem[] }

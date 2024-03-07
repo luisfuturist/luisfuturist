@@ -1,4 +1,4 @@
-**Luis Float** Full Stack Developer • Cyberspace
+**Luis Emidio** Full Stack Developer • Cyberspace
 
 Hey there! As a self-taught Full Stack developer, my journey is fueled by a passion for language, philosophy, and the boundless realms of technology and the future. In my free time, I immerse myself in the captivating worlds of cyberpunk, with favorites like Ghost in the Shell sparking my imagination and propelling me towards new horizons.
 
@@ -12,4 +12,4 @@ Hey there! As a self-taught Full Stack developer, my journey is fueled by a pass
 
 If you share similar interests or want to chat about exciting futuristic projects, don't hesitate to reach out – let's be part of the future together
 
-[![LinkedIn](https://img.shields.io/badge/-luisfloat-333333?style=flat-square&logo=linkedin)](https://linkedin.com/in/luisfloat) [![X (Social Media)](https://img.shields.io/badge/-%40luisfloat-333333?style=flat-square&logo=x)](https://x.com/luisfloat) [![Discord](https://img.shields.io/badge/-luisfloat-333333?style=flat-square&logo=discord)](https://discord.com/luisfloat)
+[![LinkedIn](https://img.shields.io/badge/-luisfuturist-333333?style=flat-square&logo=linkedin)](https://linkedin.com/in/luisfuturist) [![X (Social Media)](https://img.shields.io/badge/-%40luisfuturist-333333?style=flat-square&logo=x)](https://x.com/luisfuturist) [![Discord](https://img.shields.io/badge/-luisfuturist-333333?style=flat-square&logo=discord)](https://discord.com/luisfuturist)
