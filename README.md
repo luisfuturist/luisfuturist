@@ -6,7 +6,7 @@ Visit my website at [luisfuturist.com](https://luisfuturist.com) to learn more a
 
 ---
 
-![Major's Internal Structures by Vitaly Bulgarov](/150920_CHAR_Major_ShellingSequence_05-1.jpg)
+![Major's Internal Structures by Vitaly Bulgarov](/public/150920_CHAR_Major_ShellingSequence_05-1.jpg)
 
 [Vitaly Bulgarov](https://vitalybulgarov.com) ⸱ Paramount Pictures © ⸱ DreamWorks Pictures ©
 
