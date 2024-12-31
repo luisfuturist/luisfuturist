@@ -6,4 +6,8 @@
     "vite.config.ts": "postcss.config.js, tailwind.config.js",
     "index.html": "style.css"
   },
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+  }
 }

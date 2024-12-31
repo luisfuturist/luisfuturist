@@ -1,15 +1,17 @@
-**Luis Emidio** Full Stack Developer • Cyberspace
+# Luis Emidio
 
-Hey there! As a self-taught Full Stack developer, my journey is fueled by a passion for language, philosophy, and the boundless realms of technology and the future. In my free time, I immerse myself in the captivating worlds of cyberpunk, with favorites like Ghost in the Shell sparking my imagination and propelling me towards new horizons.
+I am the lead developer and founder at [Gaia](https://github.com/9aia), where I focus on creating experimental projects with emerging technologies like GenAI, while also teaching English privately. Currently, I’m pursuing an undergraduate degree in AI at [FIAP](https://github.com/fiap) to complement my self-taught expertise. In my personal life, I’m deeply fascinated by philosophy and the future, and I express myself through AI by creatively expanding my favorite genre—cyberpunk—through art, [songs](https://suno.com/profile/luisfuturist), and other creative projects.
 
----
-
-![](https://i.pinimg.com/originals/7d/84/02/7d8402f35a87220979b3b95b9c1ea097.jpg) Art by [Alex Feliksovich](https://www.artstation.com/feliksovich) 
-
-> "That's all it is: information. Even a simulated experience or a dream; simultaneous reality and fantasy. Any way you look at it, all the information that person accumulates in a lifetime is just a drop in the bucket..." – Batou
+Visit my website at [luisfuturist.com](https://luisfuturist.com) to learn more about my projects and interests.
 
 ---
 
-If you share similar interests or want to chat about exciting futuristic projects, don't hesitate to reach out – let's be part of the future together
+![Major's Internal Structures by Vitaly Bulgarov](/150920_CHAR_Major_ShellingSequence_05-1.jpg)
+
+[Vitaly Bulgarov](https://vitalybulgarov.com) ⸱ Paramount Pictures © ⸱ DreamWorks Pictures ©
+
+---
+
+If you share similar interests or want to chat about exciting futuristic projects, don't hesitate to reach out – let's be part of the future together.
 
 [![LinkedIn](https://img.shields.io/badge/-luisfuturist-333333?style=flat-square&logo=linkedin)](https://linkedin.com/in/luisfuturist) [![X (Social Media)](https://img.shields.io/badge/-%40luisfuturist-333333?style=flat-square&logo=x)](https://x.com/luisfuturist) [![Discord](https://img.shields.io/badge/-luisfuturist-333333?style=flat-square&logo=discord)](https://discord.com/luisfuturist)
