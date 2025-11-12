@@ -1,6 +1,6 @@
 # Luis Emidio
 
-I am the lead developer and founder at [Gaia](https://github.com/9aia), where I focus on creating experimental projects with emerging technologies like GenAI, while also work as AI Solutions FE Developer at [NeuralMind](https://github.com/neuralmind-ai). Currently, I’m pursuing an undergraduate degree in AI at [FIAP](https://github.com/fiap) to complement my self-taught expertise. In my personal life, I’m deeply fascinated by philosophy and the future, and I am looking forward by creatively expanding my favorite genre—cyberpunk—through art, and other creative projects.
+I am the lead developer and founder at [Gaia](https://github.com/9aia), where I focus on creating experimental projects with emerging technologies like GenAI, while also work as AI Solutions Developer at [NeuralMind](https://github.com/neuralmind-ai). Currently, I’m pursuing an undergraduate degree in AI at [FIAP](https://github.com/fiap) to complement my self-taught expertise. In my personal life, I’m deeply fascinated by philosophy and the future, and I am looking forward by creatively expanding my favorite genre—cyberpunk—through art, and other creative projects.
 
 Visit my website at [luisfuturist.com](https://luisfuturist.com) to learn more about my projects and interests.
 
