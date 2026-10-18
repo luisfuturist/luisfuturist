@@ -31,7 +31,7 @@ Where my work lives — my personal account and the organizations I'm part of:
 A curated list of projects I've built or am building — across my personal account, Gaia, Handl, and m7tlab. They span tools, agents, apps, gamedev, and research — many LLM-powered, and several still in progress:
 
 * ✨ **Recent**  
-   * [**catopt**](https://github.com/luisfuturist/catopt) — Research on a category-theoretic equality-saturation optimizer for tensor programs  
+   * [**research-mlopt**](https://github.com/handl-lang/research-mlopt) — Research on a category-theoretic equality-saturation optimizer for tensor programs  
    * [**kuda**](https://github.com/9aia/kuda) — A hippocampus for your codebase — repo memory: index, query, verify  
    * [**sturn**](https://github.com/9aia/sturn) — The murmuration layer for your repo — evented coordination: ops, claims, topics  
    * [**mimus**](https://github.com/9aia/mimus) — Spots the cuckoo eggs in your repo — claim verification: docs-as-tests, memory audit  
