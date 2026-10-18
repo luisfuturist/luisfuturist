@@ -20,7 +20,7 @@ export default {
       name: 'Recent',
       emoji: '✨',
       repos: [
-        { name: 'research-mlopt', href: gh('handl-lang/research-mlopt'), desc: 'Research on a category-theoretic equality-saturation optimizer for tensor programs' },
+        { name: 'research-mlopt', href: gh('handl-lang/research-mlopt'), desc: 'Research on applying a category-theoretic language (Handl) for automatic optimization of tensor programs in ML' },
         { name: 'kuda', href: repo('kuda'), desc: 'A hippocampus for your codebase — repo memory: index, query, verify' },
         { name: 'sturn', href: repo('sturn'), desc: 'The murmuration layer for your repo — evented coordination: ops, claims, topics' },
         { name: 'mimus', href: repo('mimus'), desc: 'Spots the cuckoo eggs in your repo — claim verification: docs-as-tests, memory audit' },
