@@ -23,7 +23,8 @@ Selected projects:
    * [**sepia**](https://github.com/9aia/sepia) (🚧 WIP) — The chromatophore layer for your coding agents — adaptive sessions: merge, drive, migrate  
    * [**peregrin**](https://github.com/9aia/peregrin) (🚧 WIP) — The wanderer layer for your agents — evented orchestration: graphs, drivers, approvals  
    * [**myco**](https://github.com/9aia/myco) (🚧 WIP) — Project management, grown not built — a mycorrhizal network for your agents: tasks, signals, handoffs  
-   * [**tarsi**](https://github.com/9aia/tarsi) — Generate your changelogs from Git diffs with AI
+   * [**tarsi**](https://github.com/9aia/tarsi) — Generate your changelogs from Git diffs with AI  
+   * [**handl-dts**](https://github.com/luisfuturist/handl-dts) — Research on declarative handler-topology synthesis for effect-handler languages — Lean formalization, paper, and reference tooling
 * 📋 **Backlog**  
    * [**corax**](https://github.com/9aia/corax) (🚧 WIP) — Simple offline-first mobile app that enhances PDF reading with TTS and synchronized highlighting  
    * [**physal**](https://github.com/9aia/physal) (🚧 WIP) — Framework for secure, high-performance, and extensible web applications  
