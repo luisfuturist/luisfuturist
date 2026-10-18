@@ -30,6 +30,7 @@ Selected projects:
    * [**manto**](https://github.com/9aia/manto) (🚧 WIP) — Discord server configuration toolchain  
    * [**psitta**](https://github.com/9aia/psitta) (🚧 WIP) — Next-gen internationalization framework powered by GenAI  
    * [**lusci**](https://github.com/9aia/lusci) — Self-hosted Discord bot music player with natural language commands  
+   * [**termsite**](https://github.com/luisfuturist/termsite) — Personal SSH-accessible TUI site  
    * [**thal**](https://github.com/9aia/thal) — Improve English through conversations with personalized AI characters and real-time UI assistance
 * 🏆 **Awarded**  
    * [**proximity**](https://github.com/luisfuturist/proximity) — AI-powered job semantic matching. Winner of FIAP GS 2025.2 "Future at Work"
@@ -39,7 +40,9 @@ Selected projects:
    * [**vike-island-example**](https://github.com/luisfuturist/vike-island-example) — Islands architecture implementation example using Vike + React + Vue
 * 🗃️ **Archived**  
    * [**metachickens**](https://github.com/m7tlab/metachickens) — Inject mob DNA into a chick, watch it lay eggs of other mobs, and craft spawners in Minecraft  
-   * [**terracotta**](https://github.com/m7tlab/terracotta) — Declarative Minecraft project registry management tool
+   * [**terracotta**](https://github.com/m7tlab/terracotta) — Declarative Minecraft project registry management tool  
+   * [**de**](https://github.com/luisfuturist/de) — Personal desktop environment scripts and config files  
+   * [**website**](https://github.com/luisfuturist/website) — Personal homepage
 
 And more...
 

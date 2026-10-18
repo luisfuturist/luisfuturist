@@ -42,6 +42,7 @@ export default {
         { name: 'manto', href: repo('manto'), wip: true, desc: 'Discord server configuration toolchain' },
         { name: 'psitta', href: repo('psitta'), wip: true, desc: 'Next-gen internationalization framework powered by GenAI' },
         { name: 'lusci', href: repo('lusci'), desc: 'Self-hosted Discord bot music player with natural language commands' },
+        { name: 'termsite', href: gh('luisfuturist/termsite'), desc: 'Personal SSH-accessible TUI site' },
         { name: 'thal', href: repo('thal'), desc: 'Improve English through conversations with personalized AI characters and real-time UI assistance' },
       ],
     },
@@ -67,6 +68,8 @@ export default {
       repos: [
         { name: 'metachickens', href: gh('m7tlab/metachickens'), desc: 'Inject mob DNA into a chick, watch it lay eggs of other mobs, and craft spawners in Minecraft' },
         { name: 'terracotta', href: gh('m7tlab/terracotta'), desc: 'Declarative Minecraft project registry management tool' },
+        { name: 'de', href: gh('luisfuturist/de'), desc: 'Personal desktop environment scripts and config files' },
+        { name: 'website', href: gh('luisfuturist/website'), desc: 'Personal homepage' },
       ],
     },
   ],
