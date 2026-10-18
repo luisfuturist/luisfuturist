@@ -6,3 +6,16 @@ export interface ShieldItem {
   href: string
   alt?: string
 }
+
+export interface ProjectRepo {
+  name: string
+  href: string
+  desc: string
+  wip?: boolean
+}
+
+export interface ProjectCategory {
+  name: string
+  emoji: string
+  repos: ProjectRepo[]
+}
