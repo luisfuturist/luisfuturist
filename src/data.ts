@@ -29,7 +29,7 @@ export default {
         { name: 'peregrin', href: repo('peregrin'), wip: true, desc: 'The wanderer layer for your agents — evented orchestration: graphs, drivers, approvals' },
         { name: 'myco', href: repo('myco'), wip: true, desc: 'Project management, grown not built — a mycorrhizal network for your agents: tasks, signals, handoffs' },
         { name: 'tarsi', href: repo('tarsi'), desc: 'Generate your changelogs from Git diffs with AI' },
-        { name: 'handl-dts', href: gh('handl-lang/handl-dts'), desc: 'Research on declarative handler-topology synthesis for effect-handler languages — Lean formalization, paper, and reference tooling' },
+        { name: 'research-dts', href: gh('handl-lang/research-dts'), desc: 'Research on declarative handler-topology synthesis for effect-handler languages — Lean formalization, paper, and reference tooling' },
       ],
     },
     {
