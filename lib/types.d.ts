@@ -19,3 +19,9 @@ export interface ProjectCategory {
   emoji: string
   repos: ProjectRepo[]
 }
+
+export interface OrgItem {
+  name: string
+  href: string
+  desc: string
+}

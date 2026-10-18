@@ -1,6 +1,6 @@
 
 import options from 'lfds-tokens'
-import { ProjectCategory, ShieldItem } from '../lib/types'
+import { OrgItem, ProjectCategory, ShieldItem } from '../lib/types'
 
 const gh = (path: string) => `https://github.com/${path}`
 const repo = (name: string) => gh(`9aia/${name}`)
@@ -14,15 +14,13 @@ export default {
     color: badgeColor, logo: 'linkedin' },
     { name: '@luisfuturist', href: 'https://x.com/luisfuturist', alt: 'X (Social Media)',
     color: badgeColor, logo: 'x' },
-    { name: 'luisfuturist', href: 'https://discord.com/luisfuturist', alt: 'Discord',
-    color: badgeColor, logo: 'discord' },
   ],
   projects: [
     {
       name: 'Recent',
       emoji: '✨',
       repos: [
-        { name: 'catopt', href: gh('luisfuturist/catopt'), desc: 'Research: a category-theoretic equality-saturation optimizer for tensor programs' },
+        { name: 'catopt', href: gh('luisfuturist/catopt'), desc: 'Research on a category-theoretic equality-saturation optimizer for tensor programs' },
         { name: 'kuda', href: repo('kuda'), desc: 'A hippocampus for your codebase — repo memory: index, query, verify' },
         { name: 'sturn', href: repo('sturn'), desc: 'The murmuration layer for your repo — evented coordination: ops, claims, topics' },
         { name: 'mimus', href: repo('mimus'), desc: 'Spots the cuckoo eggs in your repo — claim verification: docs-as-tests, memory audit' },
@@ -40,8 +38,8 @@ export default {
       repos: [
         { name: 'corax', href: repo('corax'), wip: true, desc: 'Simple offline-first mobile app that enhances PDF reading with TTS and synchronized highlighting' },
         { name: 'physal', href: repo('physal'), wip: true, desc: 'Framework for secure, high-performance, and extensible web applications' },
-        { name: 'manto', href: repo('manto'), wip: true, desc: 'Discord server configuration toolchain' },
-        { name: 'psitta', href: repo('psitta'), wip: true, desc: 'Next-gen internationalization framework powered by GenAI' },
+        { name: 'manto', href: repo('manto'), wip: true, desc: 'Discord server config framework' },
+        { name: 'psitta', href: repo('psitta'), wip: true, desc: 'Next-gen internationalization framework powered by LLMs' },
         { name: 'lusci', href: repo('lusci'), desc: 'Self-hosted Discord bot music player with natural language commands' },
         { name: 'termsite', href: gh('luisfuturist/termsite'), desc: 'Personal SSH-accessible TUI site' },
         { name: 'thal', href: repo('thal'), desc: 'Improve English through conversations with personalized AI characters and real-time UI assistance' },
@@ -64,7 +62,7 @@ export default {
       ],
     },
     {
-      name: 'Archived',
+      name: 'Archived & Inactive',
       emoji: '🗃️',
       repos: [
         { name: 'metachickens', href: gh('m7tlab/metachickens'), desc: 'Inject mob DNA into a chick, watch it lay eggs of other mobs, and craft spawners in Minecraft' },
@@ -74,4 +72,11 @@ export default {
       ],
     },
   ],
-} satisfies { links: ShieldItem[]; projects: ProjectCategory[] }
+  orgs: [
+    { name: 'luisfuturist', href: gh('luisfuturist'), desc: 'My personal account, where my website, CV, and personal docs live alongside configs and scripts for my devices and study material from my degree' },
+    { name: 'Gaia', href: gh('9aia'), desc: 'An independent R&D and engineering org I founded and lead. We build tools mostly on the web stack, running experimental projects with emerging technologies like GenAI — around repos, agents, and developer workflows' },
+    { name: 'NeuralMind', href: gh('neuralmind-ai'), desc: 'Where I work full time. AI R&D on document AI, multi-agent systems, and software factory engineering, mostly on legaltech projects. Day to day that means mostly TypeScript and Python' },
+    { name: 'Handl', href: gh('handl-lang'), desc: 'An independent R&D and engineering org I founded, sitting on CS, math, logic, and philosophy. Our main work is a general, category-theoretic formal language defined as data — still in progress' },
+    { name: 'm7tlab', href: gh('m7tlab'), desc: 'My playground org for Minecraft projects — JVM ecosystem, especially Kotlin. Kept for historical reasons: Minecraft is what introduced me to engineering. Curiosity about how it worked turned into running servers and writing mods, which is how I learned programming (OOP, Java back then)' },
+  ],
+} satisfies { links: ShieldItem[]; projects: ProjectCategory[]; orgs: OrgItem[] }

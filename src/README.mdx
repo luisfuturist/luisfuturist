@@ -2,9 +2,13 @@ import React from 'react'
 import Shield from '../lib/components/Shield'
 import data from './data'
 
-# Luis Emidio
+# Emidio
 
-I am the lead developer and founder at [Gaia](https://github.com/9aia), where I focus on creating experimental projects with emerging technologies like GenAI. I also do AI R&D in tech innovation at [NeuralMind](https://github.com/neuralmind-ai). I graduated with a degree in AI from [FIAP](https://github.com/fiap), complementing what I learned independently, by hobby and by curiosity. Outside of work, as I’m fascinated by philosophy and the future, I explore both through cyberpunk — my favorite genre.
+Curiosity pulled me from videogames to category theory — wondering how things worked turned into programming, then into the formal side: linguistics, programming languages, logic, and math. That intersection is where my work lives now, across tools, agents, and research.
+
+Lately I'm drawn to orchestrating AI agents — not just as product features, but as participants in the development process itself — and to treating everything as code: an executable, reproducible path from idea to deployment. I graduated with a degree in AI from [FIAP](https://github.com/fiap), though most of what I know I learned independently, by hobby and by curiosity.
+
+Philosophy and the future keep me thinking; cyberpunk, my favorite genre, keeps me thinking and imagining, which drives me even further for answers and experience seeking.
 
 ---
 
@@ -15,9 +19,23 @@ I am the lead developer and founder at [Gaia](https://github.com/9aia), where I 
 
 ---
 
+## Accounts & Organizations
+
+Where my work lives — my personal account and the organizations I'm part of:
+
+<ul>
+  {data.orgs.map((o) => (
+    <li key={o.name}>
+      <a href={o.href}><strong>{o.name}</strong></a> — {o.desc}
+    </li>
+  ))}
+</ul>
+
+---
+
 ## Projects
 
-Selected projects:
+A curated list of projects I've built or am building — across my personal account, Gaia, Handl, and m7tlab. They span tools, agents, apps, gamedev, and research — many LLM-powered, and several still in progress:
 
 <ul>
   {data.projects.map((cat) => (
