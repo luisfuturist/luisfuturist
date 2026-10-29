@@ -46,7 +46,6 @@ A curated list of projects I've built or am building — across my personal acco
    * [**proximity**](https://github.com/luisfuturist/proximity) — AI-powered job semantic matching. Winner of FIAP GS 2025.2 "Future at Work"
 * 📋 **Backlog**  
    * [**lusci**](https://github.com/9aia/lusci) — Self-hosted Discord bot music player with natural language commands  
-   * [**salmo**](https://github.com/luisfuturist/salmo) (🚧 WIP) — Personal Arch desktop environment framework and bootable USB tooling  
    * [**termsite**](https://github.com/luisfuturist/termsite) — Personal SSH-accessible TUI site  
 * 📦 **Deprecated**  
    * [**delphis**](https://github.com/9aia/delphis) — Secure, zero-config remote development for VS Code editors  
@@ -58,7 +57,6 @@ A curated list of projects I've built or am building — across my personal acco
    * [**manto**](https://github.com/luisfuturist/manto) — Discord server config framework  
    * [**psitta**](https://github.com/luisfuturist/psitta) — Next-gen internationalization framework powered by LLMs  
    * [**thal**](https://github.com/luisfuturist/thal) — Improve English through conversations with personalized AI characters and real-time UI assistance  
-   * [**trilo**](https://github.com/luisfuturist/trilo) — Restore old or damaged photos with AI — fast, simple, and clear  
    * [**metachickens**](https://github.com/m7tlab/metachickens) — Inject mob DNA into a chick, watch it lay eggs of other mobs, and craft spawners in Minecraft  
    * [**terracotta**](https://github.com/m7tlab/terracotta) — Declarative Minecraft project registry management tool  
    * [**de**](https://github.com/luisfuturist/de) — Personal desktop environment scripts and config files  
