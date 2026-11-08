@@ -55,7 +55,7 @@ A curated list of projects I've built or am building — across my personal acco
    * [**corax**](https://github.com/luisfuturist/9aia-corax) — Simple offline-first mobile app that enhances PDF reading with TTS and synchronized highlighting  
    * [**physal**](https://github.com/luisfuturist/9aia-physal) — Framework for secure, high-performance, and extensible web applications  
    * [**manto**](https://github.com/luisfuturist/manto) — Discord server config framework  
-   * [**psitta**](https://github.com/luisfuturist/psitta) — Next-gen internationalization framework powered by LLMs  
+   * [**psitta**](https://github.com/luisfuturist/9aia-psitta) — Next-gen internationalization framework powered by LLMs  
    * [**thal**](https://github.com/thalapp/thal) — Improve English through conversations with personalized AI characters and real-time UI assistance  
    * [**metachickens**](https://github.com/m7tlab/metachickens) — Inject mob DNA into a chick, watch it lay eggs of other mobs, and craft spawners in Minecraft  
    * [**terracotta**](https://github.com/m7tlab/terracotta) — Declarative Minecraft project registry management tool  
