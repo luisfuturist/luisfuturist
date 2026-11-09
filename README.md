@@ -32,19 +32,27 @@ A curated list of projects I've built or am building — across my personal acco
 
 * ✨ **Recent**  
    * [**research-mlopt**](https://github.com/handl-lang/research-mlopt) — Research on applying a category-theoretic language (Handl) for automatic optimization of tensor programs in ML  
-   * [**kuda**](https://github.com/9aia/kuda) — A hippocampus for your codebase — repo memory: index, query, verify  
-   * [**sturn**](https://github.com/9aia/sturn) — The murmuration layer for your repo — evented coordination: ops, claims, topics  
-   * [**mimus**](https://github.com/9aia/mimus) — Spots the cuckoo eggs in your repo — claim verification: docs-as-tests, memory audit  
-   * [**bupha**](https://github.com/9aia/bupha) — The oxpecker on your repo's back — headless CI toolkit: watch, queue, run, report  
-   * [**sepia**](https://github.com/9aia/sepia) — The chromatophore layer for your coding agents — adaptive sessions: merge, drive, migrate  
-   * [**peregrin**](https://github.com/9aia/peregrin) — The wanderer layer for your agents — evented orchestration: graphs, drivers, approvals  
-   * [**myco**](https://github.com/9aia/myco) — Project management, grown not built — a mycorrhizal network for your agents: tasks, signals, handoffs  
-   * [**tarsi**](https://github.com/9aia/tarsi) — Generate your changelogs from Git diffs with AI  
-   * [**cicada**](https://github.com/9aia/cicada) — The bug that shows up on time — calendars as code: declare, plan, apply, drift  
+   * [**kuda**](https://github.com/9aia/kuda) — Code-map engine — verified per-module cards agents read before code  
+   * [**sturn**](https://github.com/9aia/sturn) — Ephemeral coordination engine — claims/ops/topics over VCS state  
+   * [**mimus**](https://github.com/9aia/mimus) — Verification engine — proofs over what agents claim  
+   * [**bupha**](https://github.com/9aia/bupha) — Queue engine for event-driven jobs — shipped as CI  
+   * [**sepia**](https://github.com/9aia/sepia) — Session lifecycle engine — start/resume/teardown for coding agents  
+   * [**peregrin**](https://github.com/9aia/peregrin) — Event-driven orchestration engine — campaigns of agent workflows, multi-machine  
+   * [**myco**](https://github.com/9aia/myco) — Records engine for agent work — views + mutations; project management is the shipped prelude  
+   * [**cuora**](https://github.com/9aia/cuora) — Secrets broker for agents — sealed, not spilled  
+   * [**lasius**](https://github.com/9aia/lasius) — Workspace gardener for GitHub orgs — clone, sync, inspect, generate editor workspace files  
+   * [**tamias**](https://github.com/9aia/tamias) — Package & content manager for the agent factory — fetch, store, cache, dispense  
+   * [**pavo**](https://github.com/9aia/pavo) — Visualization host for the tool suite — the factory's screen  
+   * [**hypha**](https://github.com/9aia/hypha) — Distributed substrate for agent workloads — entities, ops, snapshots, locks across machines  
+   * [**mycena**](https://github.com/9aia/mycena) — Code scout — surfaces TODOs/notes into the myco ledger  
+   * [**cicada**](https://github.com/9aia/cicada) — Scheduled-work engine — calendars and recurring agent runs  
    * [**research-dts**](https://github.com/handl-lang/research-dts) — Research on declarative handler-topology synthesis for effect-handler languages — Lean formalization, paper, and reference tooling
 * 🏆 **Awarded**  
    * [**proximity**](https://github.com/prox-hr/proximity) — AI-powered job semantic matching. Winner of FIAP GS 2025.2 "Future at Work"
 * 📋 **Backlog**  
+   * [**atta**](https://github.com/9aia/atta) — The fungus-garden layer for your workspace — tended architecture: crates, moves, drift (WIP)  
+   * [**pachira**](https://github.com/9aia/pachira) — Local-first personal finance tracker — Nuxt 4 on Cloudflare Pages (WIP)  
+   * [**camelus**](https://github.com/9aia/camelus) — Multi-tenant AI platform for capturing leads via conversational agents on Telegram  
    * [**lusci**](https://github.com/luisfuturist/lusci) — Self-hosted Discord bot music player with natural language commands  
    * [**termsite**](https://github.com/luisfuturist/termsite) — Personal SSH-accessible TUI site  
 * 📦 **Deprecated**  
@@ -52,6 +60,8 @@ A curated list of projects I've built or am building — across my personal acco
    * [**strigi**](https://github.com/9aia/strigi) — CLI command assistance utilizing GenAI-powered natural language prompts  
    * [**vike-island-example**](https://github.com/luisfuturist/vike-island-example) — Islands architecture implementation example using Vike + React + Vue
 * 🗃️ **Archived & Inactive**  
+   * [**tarsi**](https://github.com/9aia/tarsi) — Generate your changelogs from Git diffs with AI  
+   * [**castor**](https://github.com/9aia/castor) — CLI tool to connect, explore, and query SQL databases using JavaScript-defined blocks  
    * [**corax**](https://github.com/luisfuturist/9aia-corax) — Simple offline-first mobile app that enhances PDF reading with TTS and synchronized highlighting  
    * [**physal**](https://github.com/luisfuturist/9aia-physal) — Framework for secure, high-performance, and extensible web applications  
    * [**manto**](https://github.com/luisfuturist/manto) — Discord server config framework  
